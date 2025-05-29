@@ -1,6 +1,7 @@
-import datetime
 
-date_formate ="%d-%m-%Y"
+from datetime import datetime
+
+date_format ="%d-%m-%Y"
 CATAGORY = {"I":"Income","E":"Expence"}
 
 
@@ -8,11 +9,11 @@ def get_date(prompt,allow_default=False):
     date_str=input(prompt)
     
     if(allow_default and not date_str):
-        return datetime.today().strptime("date_formate")
+        return datetime.today().strftime(date_format)
     
     try:
-        valid_date = datetime.strptime(date_str,date_formate)
-        return valid_date.strptime(date_formate)
+        valid_date = datetime.strptime(date_str,date_format)
+        return valid_date.strftime(date_format)
     except ValueError:
         print("invalid date yoou enetr please enter valid date in dd-mm-yyyy")
         return get_date(prompt,allow_default)
