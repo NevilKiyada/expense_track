@@ -79,8 +79,10 @@ def add():
     Csv.add_data(date,amount,category,discription)
     
 def plt_transection(df):
-    income_df = df[df["category"]=="Income"].resample("D").sum() #.reindex(df.index,fill_value=0)
-    Expence_df = df[df["category"]=="Expence"].resample("D").sum() #.reindex(df.index,fill_value=0)
+    dfc= df.copy()
+    dfc = dfc.set_index('date')
+    income_df = dfc[dfc["category"]=="Income"].resample("D").sum() #.reindex(df.index,fill_value=0)
+    Expence_df = dfc[dfc["category"]=="Expence"].resample("D").sum() #.reindex(df.index,fill_value=0)
     
     plt.figure(figsize=(20,5))
     plt.plot(income_df.index , income_df["amount"],label="Income",color="g")
