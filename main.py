@@ -73,10 +73,37 @@ def add():
     Csv.add_data(date,amount,catagory,discription)
         
     
+def main():
+    while True:
+        print("\n--------------Enter Your choice -------------------")
+        print("1. for insert New recorde ")
+        print("2. for view trasaction and summary  within  a date range ")
+        print("3. for exit")
+        
+        choice = int(input("Enter Your choice : "))
+        
+        if choice == 1 :
+            add()
+        elif choice == 2 :
+            start_date = get_date("Enter The Start date (dd-mm-yyyy)")
+            end_date = get_date("Enter The End date (dd-mm-yyyy)")
+            df= Csv.get_transection(start_date,end_date)
+            pass
+        elif choice == 3 :
+            print("Exiting ...")
+            break    
+        else:
+            print("Pease Enter valid choice 1, 2 or 3")
+            
+
+        
+        
     
 # Csv.intialize_csv()
 # Csv.add_data("10-1-19",128.5,"Income","Salary")
-Csv.get_transection("01-01-2023","01-01-2026")
+# Csv.get_transection("01-01-2023","01-01-2026")
 
 # add()
 
+if __name__ == "__main__":
+    main()
