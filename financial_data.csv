@@ -4,3 +4,207 @@ date,amount,category,description
 11-05-2025,180.0,Income,
 29-05-2025,120.0,Income,sale
 29-05-2025,110.0,Expence,pen
+15-02-2023,1500.0,Income,Freelance Work
+22-03-2023,65.75,Expence,Groceries
+05-04-2023,45.99,Expence,Internet Bill
+18-04-2023,35.5,Expence,Transportation
+30-04-2023,1600.0,Income,Salary
+10-05-2023,89.99,Expence,Utilities
+15-05-2023,200.0,Income,Gift
+22-05-2023,120.0,Expence,Dining Out
+01-06-2023,1650.0,Income,Salary
+12-06-2023,299.99,Expence,Electronics
+20-06-2023,50.0,Expence,Subscription
+28-06-2023,75.25,Expence,Clothing
+05-07-2023,20.0,Income,Refund
+15-07-2023,1650.0,Income,Salary
+23-07-2023,110.5,Expence,Home Supplies
+01-08-2023,1700.0,Income,Salary
+03-08-2023,45.50,Expence,Groceries
+05-08-2023,120.75,Expence,Electricity Bill
+10-08-2023,35.99,Expence,Internet
+15-08-2023,200.0,Income,Side Project
+18-08-2023,65.0,Expence,Restaurant
+22-08-2023,15.99,Expence,Streaming Service
+25-08-2023,300.0,Income,Bonus
+28-08-2023,50.25,Expence,Gas
+01-09-2023,1700.0,Income,Salary
+05-09-2023,60.75,Expence,Groceries
+09-09-2023,25.0,Expence,Books
+12-09-2023,80.0,Expence,Phone Bill
+15-09-2023,150.0,Income,Freelance
+18-09-2023,35.0,Expence,Coffee Shop
+20-09-2023,90.5,Expence,Clothing
+25-09-2023,45.0,Expence,Haircut
+28-09-2023,20.0,Income,Refund
+01-10-2023,1750.0,Income,Salary
+03-10-2023,55.75,Expence,Groceries
+07-10-2023,130.0,Expence,Home Repairs
+10-10-2023,30.0,Expence,Transportation
+15-10-2023,250.0,Income,Freelance
+18-10-2023,70.0,Expence,Dining Out
+22-10-2023,40.0,Expence,Gym Membership
+25-10-2023,15.0,Expence,Office Supplies
+30-10-2023,100.0,Income,Sold Items
+01-11-2023,1750.0,Income,Salary
+05-11-2023,60.25,Expence,Groceries
+08-11-2023,125.0,Expence,Water Bill
+12-11-2023,45.99,Expence,Internet
+15-11-2023,300.0,Income,Part-time Work
+18-11-2023,55.0,Expence,Restaurant
+22-11-2023,80.0,Expence,Healthcare
+25-11-2023,35.0,Expence,Entertainment
+29-11-2023,20.0,Income,Cashback
+01-12-2023,1800.0,Income,Salary
+04-12-2023,150.0,Expence,Holiday Shopping
+07-12-2023,65.75,Expence,Groceries
+10-12-2023,30.0,Expence,Transportation
+15-12-2023,500.0,Income,Year-end Bonus
+18-12-2023,200.0,Expence,Gifts
+22-12-2023,90.0,Expence,Travel
+25-12-2023,45.0,Income,Gift Money
+28-12-2023,70.0,Expence,Dining Out
+01-01-2024,1800.0,Income,Salary
+05-01-2024,55.25,Expence,Groceries
+08-01-2024,120.0,Expence,Insurance
+12-01-2024,35.0,Expence,Subscription Services
+15-01-2024,200.0,Income,Freelance
+18-01-2024,40.0,Expence,Office Supplies
+22-01-2024,85.0,Expence,Home Goods
+25-01-2024,60.0,Expence,Transportation
+29-01-2024,25.0,Income,Cashback
+01-02-2024,1800.0,Income,Salary
+04-02-2024,75.50,Expence,Groceries
+07-02-2024,130.0,Expence,Utilities
+11-02-2024,40.0,Expence,Gas
+15-02-2024,250.0,Income,Side Project
+18-02-2024,95.0,Expence,Clothing
+22-02-2024,35.0,Expence,Dining Out
+26-02-2024,20.0,Expence,Streaming Service
+28-02-2024,50.0,Income,Refund
+01-03-2024,1850.0,Income,Salary
+05-03-2024,60.25,Expence,Groceries
+08-03-2024,110.0,Expence,Internet and Phone
+12-03-2024,45.0,Expence,Books
+15-03-2024,300.0,Income,Freelance
+19-03-2024,70.0,Expence,Restaurant
+22-03-2024,25.0,Expence,Coffee Shop
+26-03-2024,90.0,Expence,Healthcare
+30-03-2024,35.0,Income,Sold Items
+01-04-2024,1850.0,Income,Salary
+04-04-2024,80.75,Expence,Groceries
+08-04-2024,125.0,Expence,Electricity Bill
+11-04-2024,50.0,Expence,Transportation
+15-04-2024,200.0,Income,Side Project
+18-04-2024,65.0,Expence,Dining Out
+22-04-2024,30.0,Expence,Home Supplies
+25-04-2024,110.0,Expence,Clothing
+29-04-2024,40.0,Income,Cashback
+01-05-2024,1850.0,Income,Salary
+05-05-2024,70.25,Expence,Groceries
+09-05-2024,135.0,Expence,Water and Electricity
+12-05-2024,45.99,Expence,Internet
+15-05-2024,350.0,Income,Freelance
+18-05-2024,85.0,Expence,Home Maintenance
+22-05-2024,60.0,Expence,Restaurant
+26-05-2024,25.0,Expence,Entertainment
+30-05-2024,100.0,Income,Gift
+01-06-2024,1900.0,Income,Salary
+04-06-2024,65.75,Expence,Groceries
+08-06-2024,130.0,Expence,Insurance
+11-06-2024,40.0,Expence,Gas
+15-06-2024,250.0,Income,Side Project
+18-06-2024,70.0,Expence,Dining Out
+22-06-2024,95.0,Expence,Electronics
+26-06-2024,35.0,Expence,Office Supplies
+29-06-2024,45.0,Income,Refund
+01-07-2024,1900.0,Income,Salary
+05-07-2024,75.50,Expence,Groceries
+09-07-2024,120.0,Expence,Phone Bill
+12-07-2024,50.0,Expence,Transportation
+15-07-2024,300.0,Income,Freelance
+18-07-2024,80.0,Expence,Clothing
+22-07-2024,45.0,Expence,Healthcare
+26-07-2024,60.0,Expence,Dining Out
+30-07-2024,25.0,Income,Cashback
+01-08-2024,1900.0,Income,Salary
+04-08-2024,85.75,Expence,Groceries
+08-08-2024,140.0,Expence,Utilities
+11-08-2024,35.0,Expence,Subscription Services
+15-08-2024,350.0,Income,Side Project
+18-08-2024,90.0,Expence,Home Goods
+22-08-2024,65.0,Expence,Restaurant
+26-08-2024,30.0,Expence,Entertainment
+29-08-2024,75.0,Income,Sold Items
+01-09-2024,1950.0,Income,Salary
+05-09-2024,70.25,Expence,Groceries
+08-09-2024,125.0,Expence,Internet and Cable
+11-09-2024,45.0,Expence,Transportation
+15-09-2024,280.0,Income,Freelance
+18-09-2024,55.0,Expence,Dining Out
+22-09-2024,95.0,Expence,Home Maintenance
+25-09-2024,40.0,Expence,Office Supplies
+28-09-2024,30.0,Income,Refund
+01-10-2024,1950.0,Income,Salary
+04-10-2024,80.50,Expence,Groceries
+07-10-2024,130.0,Expence,Insurance
+10-10-2024,50.0,Expence,Gas
+15-10-2024,320.0,Income,Side Project
+19-10-2024,75.0,Expence,Clothing
+22-10-2024,60.0,Expence,Restaurant
+26-10-2024,35.0,Expence,Entertainment
+30-10-2024,45.0,Income,Cashback
+01-11-2024,1950.0,Income,Salary
+05-11-2024,85.75,Expence,Groceries
+08-11-2024,145.0,Expence,Utilities
+12-11-2024,55.0,Expence,Transportation
+15-11-2024,300.0,Income,Freelance
+18-11-2024,70.0,Expence,Healthcare
+22-11-2024,90.0,Expence,Dining Out
+26-11-2024,40.0,Expence,Streaming Service
+30-11-2024,85.0,Income,Gift
+01-12-2024,2000.0,Income,Salary
+05-12-2024,100.75,Expence,Holiday Shopping
+08-12-2024,75.0,Expence,Groceries
+11-12-2024,45.0,Expence,Transportation
+15-12-2024,500.0,Income,Year-end Bonus
+19-12-2024,250.0,Expence,Gifts
+23-12-2024,120.0,Expence,Travel
+26-12-2024,60.0,Income,Gift Money
+29-12-2024,95.0,Expence,Dining Out
+01-01-2025,2000.0,Income,Salary
+05-01-2025,80.25,Expence,Groceries
+09-01-2025,135.0,Expence,Insurance
+12-01-2025,50.0,Expence,Gas
+15-01-2025,350.0,Income,Freelance
+18-01-2025,65.0,Expence,Office Supplies
+22-01-2025,85.0,Expence,Home Goods
+25-01-2025,55.0,Expence,Entertainment
+31-01-2025,40.0,Income,Cashback
+01-02-2025,2000.0,Income,Salary
+04-02-2025,90.50,Expence,Groceries
+07-02-2025,150.0,Expence,Utilities
+10-02-2025,60.0,Expence,Transportation
+15-02-2025,320.0,Income,Side Project
+19-02-2025,75.0,Expence,Clothing
+23-02-2025,100.0,Expence,Healthcare
+26-02-2025,45.0,Expence,Dining Out
+28-02-2025,35.0,Income,Refund
+01-03-2025,2050.0,Income,Salary
+05-03-2025,85.25,Expence,Groceries
+08-03-2025,140.0,Expence,Internet and Cable
+11-03-2025,55.0,Expence,Gas
+15-03-2025,380.0,Income,Freelance
+18-03-2025,70.0,Expence,Restaurant
+21-03-2025,95.0,Expence,Home Maintenance
+25-03-2025,40.0,Expence,Entertainment
+29-03-2025,65.0,Income,Sold Items
+01-04-2025,2050.0,Income,Salary
+04-04-2025,95.75,Expence,Groceries
+07-04-2025,155.0,Expence,Insurance
+10-04-2025,50.0,Expence,Transportation
+15-04-2025,320.0,Income,Side Project
+18-04-2025,75.0,Expence,Office Supplies
+22-04-2025,110.0,Expence,Electronics
+25-04-2025,65.0,Expence,Dining Out
+30-04-2025,45.0,Income,Cashback

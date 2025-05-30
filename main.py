@@ -74,13 +74,14 @@ def add():
     Csv.intialize_csv()
     date=get_date("Enter Data like (dd-mm-yyyy)",allow_default=True)
     amount = get_amount()
-    catagory = get_category()
+    category = get_category()
     discription = get_description()
-    Csv.add_data(date,amount,catagory,discription)
+    Csv.add_data(date,amount,category,discription)
     
 def plt_transection(df):
-    income_df = df[df["catagory"]=="Income"].resamplep("D").sum().reindex(df.index,fill_value=0)
-    Expence_df = df[df["catagory"]=="Expence"].resamplep("D").sum().reindex(df.index,fill_value=0)
+    income_df = df[df["category"]=="Income"].resample("D").sum() #.reindex(df.index,fill_value=0)
+    Expence_df = df[df["category"]=="Expence"].resample("D").sum() #.reindex(df.index,fill_value=0)
+    
     plt.figure(figsize=(20,5))
     plt.plot(income_df.index , income_df["amount"],label="Income",color="g")
     plt.plot(Expence_df.index , Expence_df["amount"],label="Expense",color="r")
@@ -90,6 +91,7 @@ def plt_transection(df):
     plt.legend()
     plt.grid(True)
     plt.show()
+    print("showing plot of income and expense over time")
     
 def main():
     while True:
@@ -106,7 +108,7 @@ def main():
             start_date = get_date("Enter The Start date (dd-mm-yyyy)")
             end_date = get_date("Enter The End date (dd-mm-yyyy)")
             df= Csv.get_transection(start_date,end_date)
-            if(input("Do you want to show plot ? (y/n)  :").lower == "y"):
+            if(input("Do you want to show plot ? (y/n)  :").lower() == "y"):
                 plt_transection(df)
             pass
         elif choice == 3 :
